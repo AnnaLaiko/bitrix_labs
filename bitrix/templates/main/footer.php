@@ -9,10 +9,9 @@ IncludeTemplateLangFile(__FILE__);
             $('#slides').slides({
                 preload: true,
                 generateNextPrev: false,
-                autoHeight: true,
-                play: 4000,
+                play: 1000,
                 effect: 'fade',
-                preloadImage: '/bitrix/templates/.default/content/'
+                preloadImage: '/bitrix/templates/.default/content/loading.gif'
             });
         });
     });
